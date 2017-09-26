@@ -2,11 +2,10 @@
    ========================================================================== */
 
 .story-content {
-  display: -webkit-flex;
-  display: flex;
+  @include flexbox;
 
   @include mq('desktop') {
-    flex-direction: column;
+    @include flex-direction(column);
   }
 
   &__inner {

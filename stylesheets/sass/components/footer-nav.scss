@@ -1,12 +1,10 @@
 /* Footer navigation
    ========================================================================== */
 .footer-nav {
-  display: flex;
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
+  @include flexbox;
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  
   margin: 0 -0.625rem;
 
   &__block {

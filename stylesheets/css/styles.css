@@ -1,4 +1,4 @@
-/* Main
+/* Styles
    ========================================================================== */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -393,6 +393,10 @@ template {
 
 /* Variables
    ========================================================================== */
+/* Media queries
+   ========================================================================== */
+/* Flexbox mixins
+   ========================================================================== */
 /* Container
    ========================================================================== */
 body {
@@ -467,13 +471,21 @@ figure {
     .main-nav {
       background: #000; } }
   .main-nav__list {
-    display: flex;
+    display: -webkit-box;
     display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0; }
     @media only screen and (max-width: 991px) {
       .main-nav__list {
+        -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-left: -1.25rem; } }
   .main-nav__link {
@@ -577,10 +589,18 @@ figure {
 /* Story content
    ========================================================================== */
 .story-content {
+  display: -webkit-box;
   display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex; }
   @media only screen and (max-width: 991px) {
     .story-content {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
       flex-direction: column; } }
   .story-content__inner {
     font-family: Georgia, Times; }
@@ -601,11 +621,19 @@ figure {
 /* Story suggestions
    ========================================================================== */
 .story-suggestions__list {
+  display: -webkit-box;
   display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
   justify-content: space-between;
   list-style: none;
   margin: 0 -0.625rem;
@@ -656,11 +684,19 @@ figure {
 /* Footer navigation
    ========================================================================== */
 .footer-nav {
-  display: flex;
+  display: -webkit-box;
   display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
   justify-content: space-between;
   margin: 0 -0.625rem; }
   .footer-nav__block {

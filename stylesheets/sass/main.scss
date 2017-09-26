@@ -1,10 +1,11 @@
-/* Main
+/* Styles
    ========================================================================== */
 
 @import "base/normalize.scss";
 @import "base/variables.scss";
 
 @import "mixins/mq.scss";
+@import "mixins/flex.scss";
 
 @import "layout/container.scss";
 @import "layout/header.scss";
