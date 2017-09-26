@@ -1,0 +1,12 @@
+/* Advertisment
+   ========================================================================== */
+
+.advertisment {
+   margin-left: 3.125rem;
+   width: 300px;
+   height: 250px;
+
+   @include mq('desktop') {
+     margin: 0 auto 1rem;
+   }
+}

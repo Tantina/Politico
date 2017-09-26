@@ -1,0 +1,39 @@
+/* Header
+   ========================================================================== */
+
+.page-header {
+  background: $header-bg;
+  color: $header-color;
+  min-height: 3.75rem;
+  padding: 0 0 0 1.25rem;
+
+  &__logo {
+    float: left;
+    font-size: $font-size-h1;
+    font-weight: normal;
+    line-height: 3.7rem;
+    min-height: 3.7rem;
+    margin: 0;
+    padding: 0;
+
+    &__link {
+      &,
+      &:hover,
+      &:active,
+      &:focus {
+        color: $logo-color;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .main-nav {
+    float: right;
+
+    @include mq('desktop') {
+      float: none;
+      clear: both;
+      width: 100%;
+    }
+  }
+}
