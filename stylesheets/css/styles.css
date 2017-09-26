@@ -556,6 +556,9 @@ figure {
     margin: 0; }
     .story-preview__info__time::before {
       content: " | "; }
+    @media only screen and (max-width: 767px) {
+      .story-preview__info {
+        color: #000; } }
   .story-preview .button {
     cursor: pointer;
     padding: .6rem 3rem; }

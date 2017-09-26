@@ -72,6 +72,10 @@
         content: "\0020\007C\0020"
       }
     }
+
+    @include mq('tablet') {
+      color: $text-color;
+    }
   }
 
   .button {
