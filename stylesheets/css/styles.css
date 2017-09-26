@@ -469,7 +469,7 @@ figure {
     @media only screen and (max-width: 991px) {
       .main-nav__list {
         flex-direction: column;
-        margin-left: -1rem; } }
+        margin-left: -1.25rem; } }
   .main-nav__link {
     display: block;
     line-height: 3.7rem;
@@ -483,7 +483,7 @@ figure {
       background: #272727; }
     @media only screen and (max-width: 991px) {
       .main-nav__link {
-        padding: 0 1rem; } }
+        padding: 0 1.25rem; } }
 
 /* Buttons
    ========================================================================== */

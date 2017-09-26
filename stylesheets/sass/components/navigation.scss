@@ -17,7 +17,7 @@
 
     @include mq('desktop') {
       flex-direction: column;
-      margin-left: -1rem;
+      margin-left: -1.25rem;
     }
   }
 
@@ -40,7 +40,7 @@
     }
 
     @include mq('desktop') {
-      padding: 0 1rem;
+      padding: 0 1.25rem;
     }
   }
 }
