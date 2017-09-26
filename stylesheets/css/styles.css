@@ -640,7 +640,7 @@ figure {
   height: 250px; }
   @media only screen and (max-width: 991px) {
     .advertisment {
-      margin: 0 auto 1rem; } }
+      margin: 0 auto 2rem; } }
 
 /* Footer navigation
    ========================================================================== */
