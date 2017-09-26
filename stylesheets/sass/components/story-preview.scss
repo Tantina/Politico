@@ -25,6 +25,8 @@
   &__summary {
     bottom: 0;
     box-shadow: inset 0 -12rem 8rem -3rem #000;
+    -webkit-box-shadow: inset 0 -12rem 8rem -3rem #000;
+    -moz-box-shadow: inset 0 -12rem 8rem -3rem #000;
     color: $preview-color;
     left: 0;
     right: 0;
