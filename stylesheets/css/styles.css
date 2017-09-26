@@ -540,6 +540,7 @@ figure {
       .story-preview__summary {
         box-shadow: none;
         color: #000;
+        margin-top: 1rem;
         padding: 0;
         position: relative; } }
   .story-preview__header {
