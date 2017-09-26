@@ -435,6 +435,12 @@ figure {
     .page-header__logo__link, .page-header__logo__link:hover, .page-header__logo__link:active, .page-header__logo__link:focus {
       color: #fff;
       text-decoration: none; }
+    @media only screen and (max-width: 991px) {
+      .page-header__logo {
+        border-bottom: 1px solid #fff;
+        float: none;
+        margin-left: -1.25rem;
+        padding-left: 1.25rem; } }
   .page-header .main-nav {
     float: right; }
     @media only screen and (max-width: 991px) {
