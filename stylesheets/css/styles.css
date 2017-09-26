@@ -517,6 +517,10 @@ figure {
     display: block;
     min-height: 20rem;
     width: 100%; }
+    @media only screen and (max-width: 767px) {
+      .story-preview__img {
+        background: transparent;
+        min-height: auto; } }
   .story-preview__summary {
     bottom: 0;
     box-shadow: inset 0 -12rem 8rem -3rem #000;
